@@ -1,1 +1,1 @@
-# google-homepage
+This project aims to replicate the Google homepage. The "easy version" will be completed first, which only requires the interface to be similar to the actual website. The "difficult version" involves the search results page, again without working forms or links, only the UI.
