@@ -32,9 +32,16 @@
       <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 
       <form id="search-form" action="#">
-        <div class="form-group">
-          <input type="text" id="search-field" class="form-control"></input> 
+        
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text" id="search-glass">
+              <i class="fa fa-search"> </i>    
+            </div>
+            <input type="text" id="search-field" class="form-control"></input> 
+          </div>
         </div>
+      
 
         <div class="buttons">
           <button type="submit" id="normal-search" class="btn">Google Search</button>
