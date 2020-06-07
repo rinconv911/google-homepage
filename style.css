@@ -1,8 +1,11 @@
+/*Global styles*/ 
+
 body {
     font-family: arial,sans-serif;
     font-size: 16px;
 }
 
+/*Navbar styles*/ 
 
 #header-links {
     display: flex;
@@ -22,7 +25,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 6px);
     grid-template-rows: repeat(3, 6px);
-    border: 1px solid white;
 }
 
 .grid-cell {    
@@ -30,15 +32,18 @@ body {
     background-color: darkgray;
 }
 
-#profile-picture {
+#header-links > #profile-picture {
     background: lightgray;
     height: 30px;
-    width: 15px;
+    width: 10px;
     border-radius: 50%;
     text-align: center;
     line-height: 30px;
-    margin: 0 5px;
+    margin-left: 7px;
+    padding-right: 16px; 
 }
+
+/*Logo and search form*/ 
 
 #logo {
     margin: 0 auto;
@@ -46,4 +51,32 @@ body {
     top: 30%;
     transform: translate(-50%, -30%);
     left: 50%;
+}
+
+#search-form {
+    position: relative;
+    top: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-field {
+    border-radius: 1.875rem;
+    width: 32.95rem;
+    height: 2.125rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+#normal-search, #feeling-lucky {
+    font-size: 0.875rem;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    margin: 20px 10px 0px;
 }
