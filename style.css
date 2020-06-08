@@ -151,24 +151,37 @@ body {
   align-items: left;
   top: 60px;
   left: 180px;
+  width: 40.75rem;
+}
+
+.all-results a {
+  font-size: 1.25rem;
+}
+
+.all-results p {
+  font-size: 0.875rem;
+}
+
+.featured-result {
+  margin-bottom: 1rem;
 }
 
 #featured-result {
-  width: 40.75rem;
   height: 12rem;
   padding: 1rem;
   border: 1px solid lightgray;
   border-radius: 5px;
 }
 
-#featured-result a {
-  font-size: 1.3rem;
+#featured-result p {
+  font-size: 1rem;
+  color: black;
 }
 
 #featured-result a::before {
   display: block;
   content: "victor-lf.github.io › google-search-results";
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   color: #5f6368;
 }
 
@@ -186,6 +199,63 @@ body {
 .feature-feedback i {
   padding-right: 5px;
 }
+
+.all-results a {  
+  font-size: 1.25rem;
+  color: #1a0db2;
+}
+
+.all-results p {  
+  color: #5f6368;
+}
+
+#result-one::before {
+  display: block;
+  content:"christine-27.github.io › google-homepage";
+  font-size: 0.875rem;
+}
+
+#result-two::before {
+  display: block;
+  content:"arstechnica.com › information-technology › 2013/07";
+  font-size: 0.875rem;
+}
+
+#people-also-ask section {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#people-also-ask h3 {
+  padding: 0.7rem 0 0.7rem 1rem;
+  margin-bottom: 0px;
+  font-size: 1.25rem;
+}
+
+#people-also-ask ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+#people-also-ask ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;  
+  padding: 0.7rem 2rem 0.7rem 1rem;
+}
+
+#also-feedback {
+  position: relative;
+  left: 570px;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #5f6368;
+}
+
 
 
 
