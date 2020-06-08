@@ -1,6 +1,6 @@
 
 body {
-  font-family: arial, sans-serif;
+  font-family: arial, sans-serif !important;
   font-size: 16px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .grid-cell {    
   border: 1px solid white;
-  background-color: darkgray;
+  background-color: #727272;
 }
 
 #profile-picture {
@@ -49,7 +49,7 @@ body {
 }
 
 #profile-picture i {
-  color: white;
+  color:  ;
   text-align: center;
 }
 
@@ -125,7 +125,7 @@ body {
   flex-direction: column;
   background-color: #f2f2f2;
   color: #717171;
-  font-size: 0.875rem;
+  font-size: 0.937rem;
 }
 
 #country {
