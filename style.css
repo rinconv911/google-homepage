@@ -221,6 +221,45 @@ body {
   font-size: 0.875rem;
 }
 
+#people-also-search {  
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-bottom: 1.8rem;
+}
+
+#people-also-search h3 {
+  font-weight: bold; 
+  font-size: 0.875rem;
+  color: #5f6368;
+}
+
+#people-also-search i {
+  position: absolute;
+  top: 0.875rem;
+  right: 0.875rem;
+  color: #5f6368;
+}
+
+#people-also-search ul {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 28.125rem;
+  height: 4.375rem;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-size: 0.875rem;
+}
+
+#people-also-search li {
+  width: 13.75rem;
+  color: #1a0db2;
+  list-style: none;
+}
+
 #people-also-ask section {
   border: 1px solid lightgray;
   border-radius: 5px;
