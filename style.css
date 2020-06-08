@@ -6,15 +6,6 @@ body {
   font-size: 16px;
 }
 
-#main {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 130px;
-}
-
 /* Header */
 
 #header {
@@ -149,6 +140,53 @@ body {
   width: 9.375rem;
   margin-bottom: 0px;
 }
+
+/* Main */
+
+#main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  top: 60px;
+  left: 180px;
+}
+
+#featured-result {
+  width: 40.75rem;
+  height: 12rem;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+#featured-result a {
+  font-size: 1.3rem;
+}
+
+#featured-result a::before {
+  display: block;
+  content: "victor-lf.github.io › google-search-results";
+  font-size: 0.8rem;
+  color: #5f6368;
+}
+
+.feature-feedback {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  left: 21.5rem;
+  width: 20rem;
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  color: #5f6368;
+}
+
+.feature-feedback i {
+  padding-right: 5px;
+}
+
 
 
 /* Footer */ 
