@@ -1,5 +1,3 @@
-/*Global*/
-
 
 body {
   font-family: arial, sans-serif !important;
@@ -15,63 +13,15 @@ body {
   top: 130px;
 }
 
-/* Header */
-
-#header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px 28px 0 24px;
-}
-
-#logo {
-  margin-right: 46px;
-}
-
-.logo-and-form {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-#search-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#search-field {
-  width: 32.95rem;
-  height: 2.5rem;
-  border-radius: 1.875rem 0 0 1.875rem;
-  border-right: 1px solid white;
-}
-
-#input-group-text {
-  background-color: white;
-  border-radius: 0 1.875rem 1.875rem 0;
-  border-left: 1px solid white;
-}
-
-#delete-search {
-  color: #80868b;
-}
-
-#search-glass {
-  padding: 0 10px 0 26px;
-  color: #4285f4;
-}
 
 #header-links {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  height: 40px;
   list-style: none;
   font-size: 0.8125em;
-  margin: 13px 0;
+  margin: 15px 40px 0 0;
 }
 
 #header-links li {
@@ -103,10 +53,71 @@ body {
   text-align: center;
 }
 
-/* Footer */ 
+#search-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-field {
+  width: 32.95rem;
+  height: 2.5rem;
+  border-radius: 0 1.875rem 1.875rem 0;
+  border-left: 1px solid white;
+}
+
+.input-group {
+  justify-content: center;
+}
+
+#search-glass {
+  background-color: white;
+  border-radius: 1.875rem 0 0 1.875rem;
+  border-right: 1px solid white;
+}
+
+#search-glass > i {
+  color: lightgray;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+#normal-search, #feeling-lucky {
+  font-size: 0.875rem;
+  color: #5f6368;
+  background-color: #f2f2f2;
+  margin: 20px 10px 0px;
+}
+
+.languages-offered {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 19.18rem;
+  height: 2.125rem;
+  margin: 1.25rem 0 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8125rem;
+}
+
+.languages-offered p {
+  margin: 0;
+}
+
+.languages-offered li {
+  color: #1a0dab
+}
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   right: 0px;
