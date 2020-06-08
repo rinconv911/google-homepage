@@ -295,7 +295,37 @@ body {
   color: #5f6368;
 }
 
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 14rem);
+  grid-auto-rows: 19rem;
+  grid-gap: 1rem;
+  margin-bottom: 1.8rem;
+}
 
+.video-tile {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.video-tile p {
+  margin: 0px;
+  padding: 1rem 1rem 0px 1rem;
+}
+
+
+iframe {
+  height: calc(100% - 11.5rem);
+  width: 100%;
+  object-fit: fill;
+  border-radius: 5px 5px 0 0;
+}
+
+#iframe-title {
+  font-size: 1rem;
+  color: #1a0db2;
+  padding-bottom: 2.3rem;
+}
 
 
 /* Footer */ 
