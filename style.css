@@ -266,7 +266,7 @@ body {
   font-size: 0.875rem;
 }
 
-#people-also-search li {
+#people-also-search li, #related-searches li {
   width: 13.75rem;
   color: #1a0db2;
   list-style: none;
@@ -388,24 +388,63 @@ iframe {
   font-size: 0.875rem;
 }
 
+#related-searches h3 {
+  padding: 0.7rem 0 0.7rem 0;
+  margin-bottom: 0px;
+  font-size: 1.25rem;
+}
+
+#related-searches ul {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  height: 6.5rem;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-size: 0.875rem;
+}
+
+#related-searches ul li {
+  width: 17.5rem;
+  font-weight: bold;
+}
 
 /* Footer */ 
 
 #footer {
   position: absolute;
-  bottom: 0px;
   left: 0px;
   right: 0px;
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
   color: #717171;
+  border-top: 0.5px solid #d3c8c8;
   font-size: 0.937rem;
+  margin-top: 9.375rem;
+}
+
+#location {
+  padding: 10px 0 10px 179px;
+  border-bottom: 1px solid #d3c8c8;
+}
+
+#location a {
+  font-size: 0.875rem;
+  color: #717171;
+  text-decoration: none;
+}
+
+#location a:hover {
+  color: black;
 }
 
 #country {
-  padding: 10px 0 10px 40px;
-  border-bottom: 1px solid #d3c8c8;
+  padding-left: 1.1rem;
+  font-weight: bold;
+  color: black;
 }
 
 .lower-footer {
@@ -415,24 +454,12 @@ iframe {
   align-items: center;
 }
 
-#site-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 25rem;
-  margin-bottom: 0px;
-  padding: 10px 0px 10px 40;
-  list-style: none;
-  margin-bottom: 0px;
-}
-
 #terms-and-conditions {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 13.5rem;
-  margin-bottom: 0px;
-  padding: 10px 40px 10px 0;
+  width: 22rem;
+  margin: 0px 0px 0px 140px;
+  padding: 10px 0 10px 40px;
   list-style: none;
 }
