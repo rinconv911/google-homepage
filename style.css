@@ -12,7 +12,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  background: white;
   margin: 15px 28px 0 24px;
+  z-index: 1;
 }
 
 #logo {
@@ -209,6 +213,14 @@ body {
   color: #5f6368;
 }
 
+#result-one, #result-three, #result-five, #result-six, #result-seven, #result-eigth {
+  margin-bottom: 2rem;
+}
+
+#result-four {
+  margin-bottom: 1rem;
+}
+
 #result-one::before {
   display: block;
   content:"christine-27.github.io › google-homepage";
@@ -295,6 +307,10 @@ body {
   color: #5f6368;
 }
 
+#videos-header {
+  font-size: 1.25rem;
+}
+
 .video-grid {
   display: grid;
   grid-template-columns: repeat(2, 14rem);
@@ -325,6 +341,51 @@ iframe {
   font-size: 1rem;
   color: #1a0db2;
   padding-bottom: 2.3rem;
+}
+
+#result-three::before {
+  content:"www.websitebuilderexpert.com > building-websites";
+  display: block;
+  font-size: 0.875rem;
+}
+
+#result-four::before {
+  content:"www.buildthis.io > make-a-website";
+  display: block;
+  font-size: 0.875rem;
+}
+
+#result-four::after {  
+  content:"Signup for a web hosting · ‎Design your webpage · ‎Validate and test your website";
+  display: block;
+  position: relative;
+  bottom: 1rem;
+  color: #1a0db2;
+  font-size: 0.875rem;
+}
+
+#result-five::before {
+  content:"www.squarespace.com";
+  display: block;
+  font-size: 0.875rem;
+}
+
+#result-six::before {
+  content:"www.google.com > business > website-builder";
+  display: block;
+  font-size: 0.875rem;
+}
+
+#result-seven::before {
+  content:"www.website.com";
+  display: block;
+  font-size: 0.875rem;
+}
+
+#result-eight::before {
+  content:"www.webnode.com";
+  display: block;
+  font-size: 0.875rem;
 }
 
 
